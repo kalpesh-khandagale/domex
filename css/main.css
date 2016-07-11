@@ -1,8 +1,428 @@
 
 
 /* ==========================================================================
-   Author's custom styles
+   Kalpesh custom styles
    ========================================================================== */
+body {
+    color: #fff;
+}
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+img {
+    max-width: 100%;
+    border:none;
+}
+
+button:hover,
+button:focus,
+button:active {
+    outline: none;
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url(../fonts/Gotham-Bold.eot?#iefix) format('embedded-opentype'), url(../fonts/Gotham-Bold.woff) format('woff'), url(../fonts/Gotham-Bold.ttf) format('truetype'), url(../fonts/Gotham-Bold.svg#Respective2.0) format('svg');
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url(../fonts/Gotham-Book.eot?#iefix) format('embedded-opentype'), url(../fonts/Gotham-Book.woff) format('woff'), url(../fonts/Gotham-Book.ttf) format('truetype'), url(../fonts/Gotham-Book.svg#Respective2.0) format('svg');
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url(../fonts/Gotham-Medium.eot?#iefix) format('embedded-opentype'), url(../fonts/Gotham-Medium.woff) format('woff'), url(../fonts/Gotham-Medium.ttf) format('truetype'), url(../fonts/Gotham-Medium.svg#Respective2.0) format('svg');
+}
+
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url(../fonts/Gotham-Light.eot?#iefix) format('embedded-opentype'), url(../fonts/Gotham-Light.woff) format('woff'), url(../fonts/Gotham-Light.ttf) format('truetype'), url(../fonts/Gotham-Light.svg#Respective2.0) format('svg');
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    color: #131a54;
+    font-family: 'Gotham-Bold';
+    font-size: 26px;
+}
+
+h3 {
+    font-family: 'Gotham-Medium';
+}
+
+.col-center {
+    float: none;
+    margin: auto;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.paddZero {
+    padding: 0px;
+}
+
+
+
+/*header css start*/
+
+.navbar-default {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    -webkit-transtion:all 0.5s;
+    -moz-transtion:all 0.5s;
+    -ms-transtion:all 0.5s;
+    -o-transtion:all 0.5s;
+    transtion:all 0.5s;
+    padding: 0px;
+}
+
+.navbar-brand img {
+    -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -ms-transition:all 0.5s;
+    -o-transition:all 0.5s;
+    transition:all 0.5s;
+}
+
+.shrink {
+    background: #070b2c;
+    height: auto !important;
+}
+
+.internal-header {
+    background: #070b2c;
+    height: 80px;
+}
+
+.shrink .menu-button {
+     font-size: 0.90em;
+}
+
+.shrink .navbar-brand img {
+    width: 50% !important;
+}
+
+/*header css end*/
+
+/*main slider css start*/
+.main-slider {
+    display: block;
+}
+
+.main-slider .title {
+    border-bottom: 1px solid #fff;
+    font-family: 'Gotham-Bold';
+    font-size: 70px;
+    text-transform: uppercase;
+    width: 90%;
+    padding: 15% 0 2%;
+    line-height: 1;
+}
+
+.main-slider .info {
+    color: #fff;
+    font-family: 'Gotham-Book';
+    font-size: 24px;
+    padding:15px 0;
+    letter-spacing: 2px;
+}
+
+.main-slider .learn-more,
+#articles .learn-more {
+    background: url(../img/sl-lm-bg.png) center center no-repeat;
+    color: #fff;
+    font-family: 'Gotham-Book';
+    display: inline-block;
+    width: 137px;
+    height: 34px;
+    line-height: 36px;
+    letter-spacing: 1px;
+}
+
+.main-slider .learn-more:hover,
+#articles .learn-more:hover {
+    color: yellow;
+}
+
+#articles .learn-more {
+    margin: 10px 0 0;
+}
+
+.main-slider .fill {
+    padding: 8% 0 0;
+}
+
+.main-slider .page-scroll {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+    text-align: center;
+}
+
+.main-slider .mobView {
+    display: none;
+}
+
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+
+/*main slider css end*/
+
+
+/*Articles css start*/
+#articles {
+    display: block;
+    position: relative;
+    margin: 20px 0;
+}
+
+.latest-articles {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    position: relative;
+    border:2px solid #0e3578;
+    max-width: 300px;
+    margin:auto;
+}
+
+.articles-img img {
+    width: 100%;
+}
+
+.latest-articles .caption {
+    background: #0e3578;
+    padding:10px;
+}
+
+.latest-articles .caption h3 {
+    margin: 0 0 10px;
+}
+
+.latest-articles .caption p {
+    font-family: 'Gotham-Light';
+    background: #0e3578;
+    margin: 0px;
+
+}
+
+#articles .mobView{
+    display: none;
+}
+
+/*Articles css end*/
+
+/*Featusre prodcut css start*/
+#feature-prodcut {
+    border-top: 2px dashed rgba(19,26,84,.5);
+    display: block;
+    position: relative;
+    margin: 50px 0;
+    padding: 30px 0 0;
+}
+
+#feature-prodcut h2 {
+    margin: 0 0 25px; 
+}
+
+#feature-prodcut .title {
+    color: #282828;
+    font-family: 'Gotham-Bold';
+    font-size: 22px;
+    line-height: 1;
+    padding: 30px 0 10px;
+}
+
+#feature-prodcut p {
+     color: #282828;
+     font-family: 'Gotham-Medium';
+}
+
+#feature-prodcut .knw-more {
+    background: #e10001;
+    color: #fff;
+    font-family: 'Gotham-Medium';
+    padding: 8px;
+    border-radius: 6px;
+}
+
+#feature-prodcut .knw-more:hover {
+    color: yellow;
+}
+/*Featusre prodcut css end*/
+
+/*Prodcut Listing css start*/
+.dx-prodcutList {
+    margin: 20px 0 80px !important;
+}
+
+.dx-prodcutList .latest-articles {
+    margin: 20px auto 0;
+}
+/*Prodcut Listing css start*/
+
+/*Product Details css start*/
+
+#dx-product-details {
+    position: relative;
+    display: block;
+    margin: 150px 0 50px;
+}
+
+#dx-product-details .title {
+    color: #000;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+
+#dx-product-details p {
+    color: #000;
+}
+
+#dx-product-details h4 {
+    color: #000;
+    border-bottom: 2px solid #000;
+    display: inline-block;    
+}
+
+#dx-product-details ul li {
+    color: #000;
+    margin: 15px 0;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+#dx-product-details input {
+    color: #fff;
+    background: #0e3578;
+    border: none;
+    padding: 5px 10px;
+    margin: 42px 0 0;
+}
+
+.sp-wrap {
+    width: 400px !important;
+    max-width: 100% !important; 
+    background: none !important;
+}
+
+.sp-large {
+    text-align: center;
+}
+
+.sp-thumbs {
+    display: none;
+}
+
+#dx-product-details .caption {
+    width: 80%;
+    margin:150px auto 0;
+}
+
+#dx-product-details .caption ul {
+    border:1px solid #000;
+    text-align:center;
+}
+
+#dx-product-details .caption ul li {
+    list-style-type:none;
+    border-bottom:1px solid #000;
+    height: 45px;
+    line-height: 45px;
+    margin: 0px;
+}
+
+#dx-product-details .caption ul li:last-child {
+    border-bottom:none;
+}
+
+#dx-product-details .caption ul li a {
+    color:#000;
+    font-size:20px;
+}
+
+/*Product Details css end*/
+
+/*footer css start*/
+
+footer {
+    background: #070b2c;
+    margin: 0;
+    position: relative;
+    height: 72px;
+
+    line-height: 70px;
+}
+
+.fo-logo {
+    position: absolute;
+    width: 50%;
+    top: -35px;
+}
+
+footer ul {
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li a {
+    color: #fff;
+    font-family: 'Gotham-Medium';
+    font-size: 14px;
+    text-transform: uppercase; 
+    padding: 0 12px;
+}
+
+footer ul li a:hover {
+    color: yellow;
+}
+
+footer .social li a {
+    font-size: 24px;
+}
+
+footer .social li:nth-of-type(1) a:hover {
+    color: #3b5998;
+}
+
+footer .social li:nth-of-type(2) a:hover {
+    color: #0099e5;
+}
+
+footer .social li:nth-of-type(3) a:hover {
+    color: #bb0000;
+}
+/*footer css end*/
+
+
+
+
 
 
 

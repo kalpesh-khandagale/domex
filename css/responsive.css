@@ -1,0 +1,275 @@
+@media only screen and (max-width: 1199px) {
+    footer ul li a {
+        padding: 0 6px;
+    }
+
+    .main-slider .title {
+        font-size: 60px;
+        width: auto;
+    }
+
+    .main-slider .info {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar-brand img { 
+        width: 80%;
+    }
+
+    .main-slider .title {
+        font-size: 50px;
+    }
+
+    .main-slider .info {
+        font-size: 12px;
+    }
+
+    .main-slider .fill {
+        padding: 18% 0 0;
+    }
+
+    footer ul li a {
+        font-size: 12px;
+    }
+
+    footer .social li a {
+        font-size: 18px;
+    }
+
+    .fo-logo {
+        width: 70%;
+    }
+
+    #dx-product-details .caption {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-slider .deskView {
+        display: none;
+    }
+
+    .main-slider .mobView {
+        display: block;
+    }
+
+    .main-slider .fill {
+        padding: 10% 0 0;
+    }
+
+    .main-slider .mobView .description {
+        width: 70%;
+        margin: auto;
+    }
+
+    .main-slider .mobView .domex-img {
+        margin: auto;
+        text-align: center;
+    }
+
+    .main-slider .mobView .domex-img img {
+        width: 12%;
+    }
+
+    .main-slider .title {
+        font-size: 36px;
+        padding: 10% 0 2%;
+    }
+
+    .latest-articles {
+        margin: 2% auto;
+    }
+
+    #feature-prodcut,
+    #feature-prodcut .feature-img {
+        text-align: center;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .fo-logo {
+        width: 15%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    footer ul {
+        margin: 10% 0 0;
+    }
+
+    footer .social {
+        margin: 0px;
+    }
+
+    footer .social li a {
+        font-size: 24px;
+    }
+
+    #dx-product-details {
+        margin:150px 0 20px;
+    }
+
+    #dx-product-details .caption {
+        margin: 50px auto 0;
+    }
+
+    .dx-prodcutList .deskView  {
+        display: block !important;
+    }
+
+}
+
+@media only screen and (max-width: 667px) {
+    .main-slider .title {
+        padding: 20% 0 2%;
+    }
+
+}
+
+@media only screen and (max-width: 536px) {
+     .main-slider .mobView .domex-img img {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .menu-button {
+        margin: 1em 0;
+    }
+    .navbar-brand img {
+        width: 60%;
+        float: right;
+    }
+
+    .main-slider .fill {
+        background-image:url(../img/slider/main-slider-mob-bg.jpg) !important;
+    }
+
+    .main-slider .title {
+        font-size: 32px;
+    }
+
+    .main-slider .mobView .description {
+        width: 80%;
+    }
+
+    .main-slider .info {
+        padding: 5px 0;
+    }
+
+    .main-slider .learn-more {
+        background-image: none;
+        background-color: #e10001;
+        border-radius: 4px;
+        text-transform: uppercase;
+        font-size: 12px;
+        width: auto;
+        height: auto;
+        line-height: inherit;
+        padding: 5px 10px;
+    }
+
+    .main-slider .mobView .domex-img img {
+        width: 22%;
+    }
+
+    #articles .deskView {
+        display: none;
+    }
+
+    #articles .mobView {
+        display: block;
+    }
+
+    #feature-prodcut {
+        margin: 50px 0 80px;    
+    }
+
+    #articles .glyphicon::before {
+        display: none;
+    }
+
+    footer {
+        line-height: inherit;
+    }
+
+    footer ul {
+        margin: 10% 0 5%;
+    }
+
+    footer ul li a {
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+
+    .main-slider .fill {
+        padding: 15% 0 0;
+    }
+
+    .main-slider .mobView .domex-img img {
+        width: 25%;
+    }
+
+    .menu-button {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    .main-slider .title {
+        font-size: 28px;
+    }
+
+    .main-slider .info {
+        font-size: 10px;
+        letter-spacing: inherit;
+    }
+
+    .main-slider .fill {
+        padding: 20% 0 0;
+    }
+
+    .main-slider .mobView .domex-img img {
+        width: 28%;
+    }
+
+    .fo-logo {
+        width: 20%;
+        top: -30px;
+    }
+
+    footer ul {
+        margin: 12% 0 5%;
+    }
+
+    footer .mob-padd {
+        padding: 0px !important;
+    }
+
+    footer ul li a {
+        font-size: 8px;
+        padding: 0 4px;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    .main-slider .title {
+        font-size: 24px;
+    }
+
+    .main-slider .info,
+    .main-slider .learn-more {
+        font-size: 8px;
+    }
+
+}
