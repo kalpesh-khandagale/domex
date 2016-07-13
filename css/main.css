@@ -43,7 +43,15 @@ button:active {
     src: url(../fonts/Gotham-Light.eot?#iefix) format('embedded-opentype'), url(../fonts/Gotham-Light.woff) format('woff'), url(../fonts/Gotham-Light.ttf) format('truetype'), url(../fonts/Gotham-Light.svg#Respective2.0) format('svg');
 }
 
-a:hover {
+a {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+a:hover, a:focus, a:visited {
     text-decoration: none;
 }
 
@@ -232,6 +240,52 @@ h3 {
 
 /*Articles css end*/
 
+/*Article Listing Css start*/
+
+.dx-articleList .artlistNav {
+    display: block;
+    margin: 20px 36px 0;
+}
+
+.dx-articleList .artlistNav ul li {
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.dx-articleList .artlistNav ul li a {
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    background: #0e3578;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.dx-articleList .artlistNav ul li a:hover {
+    background: #0281df;
+}
+
+/*Article Listing Css end*/
+
+
+/*Articles Details start*/
+
+#dx-article-details p {
+    color: #000;
+}
+
+#dx-article-details .tags {
+    color: #000;
+    background: grey;
+    font-style: italic;
+    padding: 15px;
+    margin: 20px 0;
+}
+/*Articles Details end*/
+
 /*Featusre prodcut css start*/
 #feature-prodcut {
     border-top: 2px dashed rgba(19,26,84,.5);
@@ -276,7 +330,8 @@ h3 {
     margin: 20px 0 80px !important;
 }
 
-.dx-prodcutList .latest-articles {
+.dx-prodcutList .latest-articles,
+.dx-articleList .latest-articles {
     margin: 20px auto 0;
 }
 /*Prodcut Listing css start*/
